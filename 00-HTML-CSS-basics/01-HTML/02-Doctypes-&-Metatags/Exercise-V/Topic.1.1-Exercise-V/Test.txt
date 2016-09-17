@@ -1,0 +1,1 @@
+El código de "Multimedia" cuenta con un error en el tag "height" de imagen que no es válido según el analizador. Se elimina en esta sección para que quede corregido, se muestra el nuevo HTML en esta sección.

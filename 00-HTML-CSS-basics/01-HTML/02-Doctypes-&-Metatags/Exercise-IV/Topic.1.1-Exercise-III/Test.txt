@@ -1,0 +1,4 @@
+-----------------------------------Uso de Emulador BlueStacks para Android---------------------------------
+
+Opera para Android (Versión 37.0.2192.105088)
+	Funciona correctamente muestra "My todo list" en el encabezado y la lista de encabezados (no cambia nada visualmente, aunque puede suceder que en distintos móviles se vea de diversas formas).

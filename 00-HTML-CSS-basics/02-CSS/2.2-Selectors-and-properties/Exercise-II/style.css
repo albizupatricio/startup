@@ -1,0 +1,13 @@
+HTML * {
+  color: white; 
+  font-size: 14px;
+  font-family: Arial, sans-serif, black; 
+}
+
+body{
+  background-color: black;
+}
+
+header, footer, aside, nav{
+  background-color: grey;
+}

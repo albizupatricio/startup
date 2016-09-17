@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up Form</title>
+    <meta name="description" content="Sign Up Form.">
+    <meta name="keywords" content="sign up,name,birthday,sport,personal bio">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">    
+  </head>
+  <body>
+    <form id="sign-up-form">
+      <fieldset>
+        <legend>Sign-Up Details</legend>
+        <ul>
+          <li><label for="first-name">First Name:</label> <input type="text" name="first-name" id="first-name" value="" required/></li><br>
+          <li><label for="last-name">Last Name:</label> <input type="text" name="last-name" id="last-name" value="" required/></li><br>
+          <li><label for="email">Email:</label> <input type="email" name="email" id="email" value="" required/></li><br>
+          <li><label for="birthday">Birthday:</label> <input type="date" name="birthday" id="birthday" min="1900-01-01" value="" required/></li><br>
+          <li><label for="sport">Favourite Sport:</label>
+            <select name="sport" id="sport" required>
+            <option value="">Select Sport</option>
+            <option value="soccer">Soccer</option>
+            <option value="basketball">Basketball</option>
+            <option value="other">Other</option>
+          </select></li><br>
+          <li><label for="biography">Biography:</label> <textarea name="biography" id="biography" cols="25" rows="1" required></textarea></li>
+        </ul>
+      </fieldset>
+      <ul>  
+        <input type="submit" value="submit"/>
+        <input type="reset" value="reset" />
+      </ul>
+    </form>
+  </body>
+</html>

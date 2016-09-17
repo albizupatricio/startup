@@ -1,0 +1,1 @@
+Se analizaron las páginas referentes a la Specificity http://www.w3.org/TR/CSS21/cascade.html#specificity y http://specificity.keegan.st/ . 

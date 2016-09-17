@@ -1,0 +1,4 @@
+Fueron leídos y estudiados los documentos:
+
+- "HTML validation" (https://docs.webplatform.org/wiki/guides/html_validation) 
+- "WHAT DOES IT ALL MEAN?" (http://diveintohtml5.info/semantics.html)

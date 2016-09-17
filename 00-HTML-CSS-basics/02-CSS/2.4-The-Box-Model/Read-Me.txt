@@ -1,0 +1,1 @@
+Lei los articulos http://www.w3.org/TR/CSS21/box.html, Box-sizing, http://adamschwartz.co/magic-of-css/chapters/1-the-box/ y estuve haciendo unas pruebas en la calculadora de http://dabblet.com/gist/2986528.

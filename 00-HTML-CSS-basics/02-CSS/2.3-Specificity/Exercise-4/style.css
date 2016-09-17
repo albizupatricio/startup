@@ -1,0 +1,41 @@
+body{
+  background-color: black;
+}
+
+.header{
+  font-size: 46px;
+  text-align: center;	
+}
+
+.footer{
+  font-size: 10px;
+  text-align: center;
+}
+
+.content{
+  font-size: 14px;
+  background-color: grey;
+}
+
+.navigation{
+  font-size: 12px;
+  background-color: grey;
+}
+
+.sidebar{
+  font-size: 10px;
+}
+
+article{
+  font-size: 14px;
+  background-color: grey;
+}
+
+HTML * {
+  color: white; 
+  font-family: Arial, sans-serif, black; 
+}
+
+[class$="r"]{
+  background-color:magenta;
+}

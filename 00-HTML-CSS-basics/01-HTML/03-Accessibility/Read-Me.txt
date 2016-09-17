@@ -1,0 +1,19 @@
+Se leyeron y estudiaron los documentos: 
+	- "HTML Accessibility Standards v2.0" ("Open Government Licence")
+	- Las filminas de "Accessibility Features of HTML5"
+	- "Accessibility: The Missing Ingredient"
+
+Se instalaron en Google Chrome (Versión 49.0.2623.112 m) el add-on "ChromeVox" y "Accessibility Developer Tools". Se testeo el código HTML5 del punto 1.1.
+
+Testeo con ChromeVox:
+
+Exercise 1 --> Al pulsar sobre la pestaña pronuncia "Hello World" y al abrirse la página la URL es pronuncia.
+Exercise 2 --> Al pulsar sobre la pestaña pronuncia "My todo list" y al abrirse la página la URL es pronuncia.
+Exercise 3 --> Al pulsar sobre la pestaña pronuncia "My todo list", al pararse sobre el texto en la lista no dice nada (al menos con la configuración por default).
+Exercise 4 --> Al pulsar sobre la pestaña pronuncia "Expenses Table", al pararse sobre la tabla no pronuncia nada (al menos con la configuración por defecto).
+Exercise 5 --> Al pulsar sobre la pestaña pronuncia "Multimedia", pero no pronuncia el título que le coloque a la imagen, el resto de los elementos no los detecta.
+Exercise 6 --> Al pulsar sobre la pestaña pronuncia "Sign Up Form" pero no pronuncia nada más.
+
+Auditorías con Accessibility Developer Tools, las imágenes se adjuntan en una carpeta (se encontraron algunas cosas ha mejorar como el tag <track> en el video>
+
+ 

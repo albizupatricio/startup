@@ -1,0 +1,13 @@
+﻿Google Chrome para Windows (Versión 49.0.2623.112 m)
+	Funciona correctamente muestra "My todo list" en el encabezado y la lista completa (no cambia nada visualmente).
+
+Mozilla Firefox para Windows (Versión 47.0.1)
+	Funciona correctamente muestra "My todo list" en el encabezado y la lista completa (no cambia nada visualmente).
+
+Internet Explorer para Windows (Versión 8.0.6001.18702)
+	Funciona correctamente muestra "My todo list" en el encabezado y la lista completa (no cambia nada visualmente).
+
+-----------------------------------Uso de Emulador BlueStacks para Android---------------------------------
+
+Opera para Android (Versión 37.0.2192.105088)
+	Funciona correctamente muestra "My todo list" en el encabezado y la lista completa (no cambia nada visualmente).

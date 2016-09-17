@@ -1,0 +1,41 @@
+Google Chrome para Windows (Versión 49.0.2623.112 m)
+	Ejercicio I- Funciona Correctamente muestra "Hello World" en el encabezado de la pestaña.
+	Ejercicio II- Funciona Correctamente muestra "My todo list" en el encabezado de la pestaña.
+	Ejercicio III- Funciona Correctamente muestra la lista en el cuerpo de la página. 
+	Ejercicio IV- Funciona Correctamente muestra la tabla en el cuerpo del a página (sin formato). 
+	Ejercicio V- Funciona Correctamente se ve la imagen, el video y el audio.
+	Ejercicio VI- Funciona Correctamente todos los campos se validan.
+
+Google Firefox para Windows (Versión 47.0.1)
+	Ejercicio I- Funciona Correctamente muestra "Hello World" en el encabezado de la pestaña.
+	Ejercicio II- Funciona Correctamente muestra "My todo list" en el encabezado de la pestaña.
+	Ejercicio III- Funciona Correctamente muestra la lista en el cuerpo de la página. 
+	Ejercicio IV- Funciona Correctamente muestra la tabla en el cuerpo del a página (sin formato). 
+	Ejercicio V- Funciona Correctamente se ve la imagen, el video y el audio.
+	Ejercicio VI- Tiene problemas para seleccionar el campo date y validarlo.
+
+Internet Explorer para Windows (Versión 8.0.6001.18702)
+	Ejercicio I- Funciona Correctamente muestra "Hello World" en el encabezado de la pestaña.
+	Ejercicio II- Funciona Correctamente muestra "My todo list" en el encabezado de la pestaña.
+	Ejercicio III- Funciona Correctamente muestra la lista en el cuerpo de la página. 
+	Ejercicio IV- Funciona Correctamente muestra la tabla en el cuerpo del a página (sin formato). 
+	Ejercicio V- Solo se ve la imagen, no se ve el video ni se puede escuchar el audio.
+	Ejercicio VI- No se validan los campos, el area de texto no es modificable. Formatea de color azul y no deja espacios entre campos (no respeta <br>).	
+
+Internet Explorer para Windows (Versión 8.0.6001.18702)
+	Ejercicio I- Funciona Correctamente muestra "Hello World" en el encabezado de la pestaña.
+	Ejercicio II- Funciona Correctamente muestra "My todo list" en el encabezado de la pestaña.
+	Ejercicio III- Funciona Correctamente muestra la lista en el cuerpo de la página. 
+	Ejercicio IV- Funciona Correctamente muestra la tabla en el cuerpo del a página (sin formato). 
+	Ejercicio V- Solo se ve la imagen, no se ve el video ni se puede escuchar el audio.
+	Ejercicio VI- No se validan los campos, el area de texto no es modificable.	
+
+-----------------------------------Uso de Emulador BlueStacks para Android---------------------------------
+
+Opera para Android (Versión 37.0.2192.105088)
+	Ejercicio I- Funciona Correctamente muestra "Hello World" en el encabezado de la pestaña.
+	Ejercicio II- Funciona Correctamente muestra "My todo list" en el encabezado de la pestaña.
+	Ejercicio III- Funciona Correctamente muestra la lista en el cuerpo de la página. 
+	Ejercicio IV- Funciona Correctamente muestra la tabla en el cuerpo del a página (sin formato). 
+	Ejercicio V- Funciona Correctamente se ve la imagen, el video (en pantalla completa) y el audio.
+	Ejercicio VI- Funciona Correctamente todos los campos se validan.

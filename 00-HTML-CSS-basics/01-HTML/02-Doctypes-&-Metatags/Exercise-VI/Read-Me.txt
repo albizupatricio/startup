@@ -1,0 +1,1 @@
+Se leyeron y estudiaron las buenas prácticas de HTML5 del repositorio "HTML5 BoilerPlate"

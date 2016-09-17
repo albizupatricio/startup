@@ -1,0 +1,1 @@
+﻿Todos los documentos HTML creados previamente tenían meta-tags. Entonces se los elimine para ver como quedaban. 

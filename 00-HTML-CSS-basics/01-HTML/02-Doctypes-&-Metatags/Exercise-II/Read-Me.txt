@@ -1,0 +1,1 @@
+﻿Todos los documentos HTML creados previamente tenían el "doctype". Se los saqué y los analice.

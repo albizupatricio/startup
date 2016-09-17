@@ -1,0 +1,1 @@
+El código de "Sign-Up" presenta errores de validación en los <br> y los <lu> de los botones inferiores. Se eliminan los <br> y los <lu>, solamente queda como warning el tipo date (que no funciona en todos los navegadores).

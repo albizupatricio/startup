@@ -1,0 +1,1 @@
+Se elimina solamente el meta viewport tag y me fijo que sucede en los Ejercicios III, IV, V y VI que son los que cuentan con este metatag.

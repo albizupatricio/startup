@@ -1,0 +1,42 @@
+body{
+  background-color: black;
+}
+
+.header{
+  font-size: 46px;
+  background-color:grey;
+  text-align: center;	
+}
+
+.footer{
+  font-size: 10px;
+  background-color:grey;
+  text-align: center;
+}
+
+.content{
+  font-size: 14px;
+  background-color: grey;
+}
+
+.navigation{
+  font-size: 12px;
+  background-color: grey;
+}
+
+.sidebar{
+  font-size: 10px;
+  background-color: grey;
+}
+
+article{
+  font-size: 14px;
+  background-color: grey;
+}
+
+HTML * {
+  color: white; 
+  font-weight: lighter;
+  font-family: Arial, sans-serif, black; 
+}
+

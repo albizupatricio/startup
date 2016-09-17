@@ -1,0 +1,18 @@
+HTML * {
+  color: white; 
+  font-size: 14px;
+  font-family: Arial, sans-serif, black; 
+}
+
+body{
+  background-color: black;
+}
+
+aside, nav{
+  background-color: grey;
+}
+
+header, footer{
+  background-color:grey;
+  text-align: center;
+}
