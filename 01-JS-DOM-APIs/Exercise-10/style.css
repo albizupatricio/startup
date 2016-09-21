@@ -1,0 +1,18 @@
+header, section, footer{
+	text-align: center
+}
+
+
+article{
+	background-color: grey;
+	color:white;
+}
+
+highlight{
+	background-color:blue;
+}
+
+.highlight {
+    background-color: yellow;
+    color:black;
+}

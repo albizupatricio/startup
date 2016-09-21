@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Spotify Search of Albums</title>
+    <meta name="description" content="Spotify Search of Albums">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js">
+    </script>
+    <script>
+
+      $(document).ready(function(){
+        var divClone;
+        divClone = $("#section").clone()
+        $(".resetButton").click(function(){
+           $(".albums").text("");
+           $("#section").replaceWith(divClone.clone()); 
+        });
+        $(".searchButton").click(function(){ ;
+          $.ajax({
+            type: "GET",
+            dataType: "json",
+            url: "https://api.spotify.com/v1/search?query=rolling+stones&type=album",
+            async: false,
+            }).done(function(data){
+              $(".albums").append($(".searcher").val() + ":\n");  
+              $.each(data.albums.items, function(i, item) {
+                $(".albums").append((i+1)+ "* " + data.albums.items[i].name + "\n");
+
+                //Add Article
+                var x = document.createElement("ARTICLE");
+                x.setAttribute("id", "myArticle");
+                document.getElementById("section").appendChild(x);
+
+                //Add Album title
+                var title = document.createElement("H2");
+                var txt = document.createTextNode($(".searcher").val() + ": " +data.albums.items[i].name);
+                title.appendChild(txt);
+                document.getElementById("myArticle").appendChild(title);
+                //Add Type
+                var type = document.createElement("P"); 
+                txt = document.createTextNode("Type: " + data.albums.items[i].type);
+                type.appendChild(txt);
+                document.getElementById("myArticle").appendChild(type);
+
+                //Ask and Add Release Date
+                $.ajax({
+                  type: "GET",
+                  dataType: "json",
+                  url: data.albums.items[i].href,
+                  async: false,
+                  }).done(function(album){
+                      var rDate = document.createElement("P"); 
+                      txt = document.createTextNode("Release Date: " + album.release_date);
+                      rDate.appendChild(txt);
+                      document.getElementById("myArticle").appendChild(rDate);
+                  });
+
+                //Add Image
+                var imagen= document.createElement("img");
+                imagen.setAttribute("src", data.albums.items[i].images[0].url);
+                document.getElementById("myArticle").appendChild(imagen);
+                
+                //Add Link
+                var link = document.createElement("a");
+                var linkText = document.createTextNode("Click to go to Spotify!!!!" );
+                link.appendChild(linkText);
+                link.title = data.albums.items[i].name;
+                link.href =  data.albums.items[i].external_urls.spotify;
+                document.getElementById("myArticle").appendChild(link);
+              });
+              $(".albums").append("\n");  
+          });
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <header>
+      <h1>Spotify's Music</h1>
+    </header>
+    <nav>
+      <h1>Search</h1>
+      <input class="searcher" type="text" name="band" value="Rolling Stones" readonly="">
+      <button class="searchButton">Search Band</button>   
+      <button class="resetButton">Reset Search</button>   
+    </nav>
+    <div id="section">
+      <h1>Music Information</h1>
+    </div>
+    <aside>
+      <h1>Albums</h1>
+      <textarea class="albums" rows="27" cols="25" readonly=""></textarea>
+    </aside>
+  </body>
+</html>

@@ -1,0 +1,108 @@
+body{
+	background-color: black;
+}
+
+header, footer{ 
+	display: flex;
+	border-style:solid;
+    border-width:5px;
+    border-color:black;
+	background-color: grey;
+	width:1205px;
+	height: 100px;
+	border-radius: 25px;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    color:white;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+
+nav{
+	display:inline-block;
+	border-style:solid;
+    border-width:5px;
+    border-color:black;
+	vertical-align: top;
+	background-color: grey;
+	width: 240px;
+	height: 535px;
+	border-radius: 25px;
+	color:white;
+	text-align: center;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+aside{
+	display:inline-block;
+	border-style:solid;
+    border-width:5px;
+    border-color:black;
+	vertical-align: top;
+	background-color: grey;
+	width: 240px;
+	height: 535px;
+	border-radius: 25px;
+	color:white;
+	text-align: center;
+    margin-top: 5px;	
+}
+
+#section{
+	display:inline-block;
+	border-style:solid;
+    border-width:5px;
+    border-color:black;
+	vertical-align: top;
+	background-color: grey;
+	width: 695px;
+	border-radius: 25px;
+	color:white;
+	text-align: center;
+    margin-top: 5px;	
+}
+
+
+.searcher{
+	color:black;
+	width: 200px;
+}
+
+.searchButton{
+	margin-top: 10px;
+}
+
+.albums{
+	text-align:left;
+	resize: none;
+}
+
+img{
+	display: block;
+	width: 120px;
+	height: 120px;
+	margin-left: 290px;	
+}
+
+#myArticle{
+	display:block;
+	vertical-align: top;
+	text-align: center;	
+}
+
+
+a{
+	color:white;
+}
+
+a:hover{
+	color:black;
+}
+
+h1{
+	text-align: center;
+}

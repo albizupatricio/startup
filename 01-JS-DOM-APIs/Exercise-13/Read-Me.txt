@@ -1,0 +1,1 @@
+Descargue el add-on para Mozilla Firefox y corrí el test. Luego arreglé los problemas que me informó (3 de HTML y 3 de CSS).
