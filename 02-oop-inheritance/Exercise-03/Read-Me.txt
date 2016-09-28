@@ -1,0 +1,1 @@
+Me resultaba más interesante crear un observador en el cuál se pudiera inscribir a las películas y ser controladas en el caso de que estén subscriptas.
