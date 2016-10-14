@@ -37,8 +37,17 @@ var MovieObserver = function (){};
 MovieObserver.prototype.update = function(movie, event){
   switch(event){
     case "play":
+      console.log("Playing " + movie);
       break;
     case "stop":
       break; 
   }
 };
+
+
+
+var terminator = new Movie();
+terminator.set("title", "Terminator");
+var observer = new MovieObserver();
+terminator.suscribe(observer);
+terminator.play();

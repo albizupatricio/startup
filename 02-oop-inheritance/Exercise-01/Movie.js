@@ -1,5 +1,5 @@
 var Movie = function () {
-  this.attributes = {};
+  this._attributes = {};
 };
 
 Movie.prototype.play = function() {};
@@ -7,11 +7,11 @@ Movie.prototype.play = function() {};
 Movie.prototype.stop = function() {};
 
 Movie.prototype.set = function(attr,value){
-  this.attributes[attr] = value;
-  console.log(this.attributes["title"] + ":" + this.attributes[attr] + " inserted");
+  this._attributes[attr] = value;
+  console.log(this._attributes["title"] + ":" + this._attributes[attr] + " inserted");
 };
 
 Movie.prototype.get = function(attr){
-  console.log(this.attributes["title"] + ":" + this.attributes[attr]);
-  return this.attributes[attr];
+  console.log(this._attributes["title"] + ":" + this._attributes[attr]);
+  return this._attributes[attr];
 };
