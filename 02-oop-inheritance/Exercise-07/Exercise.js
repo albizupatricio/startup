@@ -33,7 +33,7 @@ var Movie = (function () {
 
   };
 
-})();
+});
 
 /*---------------------------------------------MovieObserver-------------------------------------------------------*/
 
@@ -51,8 +51,9 @@ MovieObserver.prototype.update = function(movie, event){
 };
 
 
-Movie.set("title", "Terminator");
+var Terminator = new Movie();
+Terminator.set("title", "Terminator");
 var observer = new MovieObserver();
-Movie.suscribe(observer);
-Movie.play();
-Movie.stop();
+Terminator.suscribe(observer);
+Terminator.play();
+Terminator.stop();
