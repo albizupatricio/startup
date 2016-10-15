@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+  </head>
+  <body ng-app='myApp'>
+  <div class="title" ng-controller='MainController'>
+    <h1>{{ title }}</h1>
+    <div ng-repeat="movie in movies" class="col-md-6">
+        <li>{{ movie.name }}</li> 
+    </div>
+  </div>
+
+  <!-- Modules -->
+    <script src="app.js"></script>
+
+    <!-- Controllers -->
+    <script src="MainController.js"></script>
+  
+  </body>
+</html>

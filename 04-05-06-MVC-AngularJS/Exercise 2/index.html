@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.js"></script>
+  </head>
+  <body ng-app='myApp'>
+
+    <p><a href="#/">Main</a></p>
+
+    <div class="title" ng-controller='MainController'>
+      <h1>{{ title }}</h1>
+      <div ng-repeat="movie in movies" class="col-md-6">
+          <li><a ng-href="#/{{movie.name}}"> {{ movie.name }} </a></li> 
+      </div>
+    </div>
+
+    <div ng-view></div>
+
+    <!-- Modules -->
+    <script src="app.js"></script>
+
+    <!-- Controllers -->
+    <script src="MainController.js"></script>
+
+  </body>
+</html>
